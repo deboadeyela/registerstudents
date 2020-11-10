@@ -14,11 +14,11 @@ import java.util.ArrayList;
 
 public class Course {
 	private String name;
-	private ArrayList<Module> modules;
+	private ArrayList<CourseModule> modules;
 	private LocalDate startDate;
 	private LocalDate endDate;
 	
-	public Course(String name, ArrayList<Module> modules, LocalDate startDate, LocalDate endDate) 
+	public Course(String name, ArrayList<CourseModule> modules, LocalDate startDate, LocalDate endDate) 
         {
 		this.name = name;
 		this.modules = modules;
@@ -30,11 +30,11 @@ public class Course {
 		return name;
 	}
 
-	public ArrayList<Module> getModules() {
+	public ArrayList<CourseModule> getModules() {
 		return modules;
 	}
 	
-	public void addModule(Module module) {
+	public void addModule(CourseModule module) {
 		modules.add(module);
 	}
 
