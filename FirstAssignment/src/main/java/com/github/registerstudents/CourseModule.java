@@ -11,7 +11,7 @@ package com.github.deboadeyela.registerstudents;
  */
 import java.util.ArrayList;
 
-public class Module {
+public class CourseModule {
 	private String name;
 	private String id;
 	private ArrayList<Student> enrolledStudents;
